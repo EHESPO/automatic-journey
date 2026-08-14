@@ -1,0 +1,5 @@
+    print("EHEPS Domains")
+    print("-------------")
+    print(f"Primary:        {DOMAINS.primary_url}")
+    print(f"Organization:   {DOMAINS.organization_url}")
+    print()
