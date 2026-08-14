@@ -1,0 +1,63 @@
+# EHEPS Gemini & Google Cloud Integration
+
+## Overview
+
+Initial release of the EHEPS `automatic-journey` Python automation platform.
+
+This release establishes the foundation for integration with Google Cloud and Gemini services.
+
+## Google Cloud Project
+
+- Project ID: `ehepso-nonprofit-eb1db`
+- Project number: `286452521627`
+- Region: `us-central1`
+
+## Google / Gemini Components
+
+- Gemini
+- Google GenAI SDK
+- Gemini API
+- Vertex AI
+- Vertex AI Agent Platform
+- Google AI Studio
+- BigQuery
+- Cloud Run
+- Artifact Registry
+- IAM
+- Cloud Asset Inventory
+- Identity-Aware Proxy
+- Cloud Logging
+- Cloud Monitoring
+
+## EHEPS Domains
+
+- https://eheps.com
+- https://eheps.org
+
+## Notification / Review Request
+
+This release documents the project's intended Google Cloud and Gemini integration.
+
+Please review the integration, API compatibility, authentication architecture,
+security requirements, and deployment model.
+
+> GitHub does not provide a mechanism to directly notify Google's Gemini
+> service merely by publishing a release. Actual Google/Gemini notification
+> requires an authenticated integration, webhook, API workflow, or a valid
+> GitHub account mention.
+
+## Security
+
+No API keys, passwords, OAuth secrets, or service-account private keys are
+included in this release.
+
+Google Cloud authentication should use secure identity mechanisms such as
+Workload Identity Federation where applicable.
+
+## Release Status
+
+**Development release**
+
+This release is intended for testing and validation and is not a statement
+that EHEPS is an official Google product or that Google endorses the project.
+
